@@ -1,0 +1,78 @@
+.dashboard {
+  min-height: 100vh;
+  background: #f9fafb;
+}
+
+.dashboard-layout {
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px 32px;
+  gap: 32px;
+}
+
+.dashboard-main {
+  flex: 1;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin-bottom: 16px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #111827;
+  background: transparent;
+  font-family: inherit;
+}
+
+.snippets-count {
+  font-size: 13px;
+  color: #6b7280;
+  margin-bottom: 16px;
+}
+
+.snippet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 14px;
+}
+
+.loading {
+  text-align: center;
+  padding: 60px;
+  color: #9ca3af;
+  font-size: 14px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #9ca3af;
+}
+
+.empty-state p:first-child {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.empty-state p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+.empty-state p:last-child {
+  font-size: 13px;
+  margin-top: 4px;
+}
