@@ -34,7 +34,7 @@
 }
 
 .add-btn {
-  background: #5b21b6;
+  background: #7c3aed;
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -59,7 +59,7 @@
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: #5b21b6;
+  background: #7c3aed;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -76,17 +76,17 @@
 }
 
 .logout-btn {
-  background: #5b21b6;
+  background: #f9fafb;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   padding: 6px 12px;
   font-size: 13px;
-  color: white;
+  color: #6b7280;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .logout-btn:hover {
-  border-color: #5b21b6;
-  color: white;
+  border-color: #7c3aed;
+  color: #7c3aed;
 }
