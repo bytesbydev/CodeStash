@@ -6,10 +6,12 @@ const Navbar = ({ onAddSnippet }) => {
 
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-        <span className="navbar-logo-icon">📁</span>
-        <span className="navbar-logo-text">CodeStash</span>
-      </div>
+        <div className="navbar-logo">
+       <div className="auth-logo-image">
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml-icon lucide-code-xml"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>
+       </div>
+          <h1 className="navbar-logo-text">CodeStash</h1>
+        </div>
       <div className="navbar-right">
         <button className="add-btn" onClick={onAddSnippet}>
           + Add Snippet

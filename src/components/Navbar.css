@@ -22,8 +22,8 @@
 }
 
 .navbar-logo-text {
-  font-size: 18px;
-  font-weight: 800;
+  font-size: 20px;
+  font-weight: 600;
   color: #111827;
 }
 
@@ -34,7 +34,7 @@
 }
 
 .add-btn {
-  background: #7c3aed;
+  background: #5b21b6;
   color: #ffffff;
   border: none;
   border-radius: 8px;
@@ -59,7 +59,7 @@
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: #7c3aed;
+  background: #5b21b6;
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -76,17 +76,17 @@
 }
 
 .logout-btn {
-  background: #f9fafb;
+  background: #5b21b6;
   border: 1px solid #e5e7eb;
   border-radius: 8px;
   padding: 6px 12px;
   font-size: 13px;
-  color: #6b7280;
+  color: white;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 .logout-btn:hover {
-  border-color: #7c3aed;
-  color: #7c3aed;
+  border-color: #5b21b6;
+  color: white;
 }
