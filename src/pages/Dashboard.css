@@ -1,18 +1,16 @@
+css
 .dashboard {
   min-height: 100vh;
-  background: #f9fafb;
+  background: #ffffff;
 }
 
 .dashboard-layout {
   display: flex;
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 24px 32px;
-  gap: 32px;
 }
 
 .dashboard-main {
   flex: 1;
+  padding: 20px 24px;
 }
 
 .search-bar {
@@ -22,7 +20,7 @@
   background: #ffffff;
   border: 1px solid #e5e7eb;
   border-radius: 10px;
-  padding: 10px 14px;
+  padding: 10px 16px;
   margin-bottom: 16px;
 }
 
@@ -36,6 +34,10 @@
   font-family: inherit;
 }
 
+.search-bar input::placeholder {
+  color: #9ca3af;
+}
+
 .snippets-count {
   font-size: 13px;
   color: #6b7280;
@@ -44,8 +46,8 @@
 
 .snippet-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 14px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
 
 .loading {
@@ -57,22 +59,32 @@
 
 .empty-state {
   text-align: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
   color: #9ca3af;
 }
 
 .empty-state p:first-child {
   font-size: 40px;
-  margin-bottom: 8px;
+  margin-bottom: 12px;
 }
 
 .empty-state p:nth-child(2) {
   font-size: 16px;
   font-weight: 600;
   color: #6b7280;
+  margin-bottom: 4px;
 }
 
 .empty-state p:last-child {
   font-size: 13px;
-  margin-top: 4px;
+}
+
+@media (max-width: 768px) {
+  .snippet-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-layout {
+    flex-direction: column;
+  }
 }

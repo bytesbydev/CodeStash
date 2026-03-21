@@ -36,7 +36,8 @@ const Sidebar = ({ snippets, selectedLang, setSelectedLang, selectedTag, setSele
               className={`tag ${selectedTag === tag ? "active" : ""}`}
               onClick={() => setSelectedTag(selectedTag === tag ? "" : tag)}
             >
-              {tag}
+              
+            {tag}
             </span>
           ))}
         </div>

@@ -72,7 +72,7 @@
 }
 
 .form-input:focus {
-  border-color: #7c3aed;
+  border-color: #5b21b6;
 }
 
 .form-textarea {
@@ -92,7 +92,7 @@
 }
 
 .form-textarea:focus {
-  border-color: #7c3aed;
+  border-color: #5b21b6;
 }
 
 .modal-actions {
@@ -114,7 +114,7 @@
 
 .save-btn {
   flex: 1;
-  background: #7c3aed;
+  background: #5b21b6;
   color: #ffffff;
   border: none;
   border-radius: 8px;
