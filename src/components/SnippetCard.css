@@ -93,3 +93,23 @@
   background: #e5e7eb;
   border-radius: 10px;
 }
+
+@media(max-width:480px){
+  .card-header{
+    padding: 12px 12px 6px;
+  }
+  .card-title{
+    font-size: 14px;
+  }
+  .card-meta{
+    padding: 0px 12px 8px;
+  }
+  .card-code{
+padding: 10px 12px;
+font-size: 12px;
+  }
+  .icon-btn{
+    padding: 4px 5px;
+    font-size: 13px;
+  }
+}

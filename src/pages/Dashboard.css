@@ -87,4 +87,20 @@ css
   .dashboard-layout {
     flex-direction: column;
   }
+
+  .search-bar{
+    padding: 8px 12px ;
+  }
+  .dashboard-main{
+    padding: 16px;
+  }
 }
+@media (max-width: 480px) {
+  .dashboard-main{
+    padding: 12px;
+  }
+  .snippets-count{
+    font-size: 12px;
+  }
+}
+

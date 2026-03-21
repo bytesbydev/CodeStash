@@ -88,3 +88,24 @@
   border-color: #7c3aed;
   color: #7c3aed;
 }
+
+
+
+@media(max-width:480px){
+  .navbar{
+    padding: 0 16px;
+  }
+  .auth-logo-text{
+    font-size: 15px;
+  }
+  .add-btn{
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+
+}
+.user-avatar{
+width: 30px;
+height: 30px;
+font-size: 12px;
+}

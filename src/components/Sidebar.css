@@ -83,3 +83,12 @@
   color: #5b21b6;
   font-weight: 600;
 }
+@media(max-width:480px){
+  .sidebar{
+    padding: 20px;
+
+  }
+  .sidebar-item{
+    font-size: 13px;
+  }
+}

@@ -183,3 +183,18 @@ align-items: center;
 .auth-switch span:hover {
   text-decoration: underline;
 }
+
+@media(max-width:480px){
+  .auth-card{
+    padding: 20px;
+  }
+  .auth-title{
+    font-size: 22px;
+  }
+  .auth-subtitle{
+    font-size: 13px;
+  }
+  .auth-logo-text{
+    font-size:18px
+  }
+  }
